@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background: bisque;
+
+}
+.container{
+    margin: auto;
+    margin-top: 150px;
+    background-color: #f3fafe;  
+    width: 500px;  
+    height: 300px;
+    padding: 50px;
+    border-radius: 50px;
+}
+h1{
+
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+form{
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form input{
+    padding: 10px;
+    margin: 5px;
+}
+form label{
+    font-size: 17px;
+}
+button{
+    padding: 6px;
+    border-radius: 6px;
+    margin: 2px;
+    width: 100px;
+    background-color: aqua;
+}
