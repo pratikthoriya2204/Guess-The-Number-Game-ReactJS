@@ -46,12 +46,12 @@ const GuassNumber = () => {
     return (
         <>
             <div className='container'>
-                <h1>Guass The Number</h1>
-                <h4>Guass any Number Between 1 to 50</h4>
+                <h1>Guess The Number</h1>
+                <h4>Guess any Number Between 1 to 50</h4>
                 <form onSubmit={OnGuassNumber}>
                     <label htmlFor='num'>Enter a Number: </label>
                     <input type="number" name='num' id='num' onChange={onChangeHandler} value={data.num} />
-                    <button type='submit'>Guass</button>
+                    <button type='submit'>Guess</button>
                     <p> {matched}</p>
                 </form>
             </div>
